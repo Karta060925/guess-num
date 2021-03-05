@@ -1,6 +1,11 @@
 import random
 
-r =  random.randint(1, 100)
+start = input('請決定起始數字：')
+end = input('請決定結束字：')
+start = int(start)
+end = int(end)
+
+r =  random.randint(start, end)
 count = 0
 while True: 
     count += 1
